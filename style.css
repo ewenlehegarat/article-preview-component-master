@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+:root {
+  --very-dark-grayish-blue: hsl(217, 19%, 35%);
+  --desaturated-dark-blue: hsl(214, 17%, 51%);
+  --grayish-blue: hsl(212, 23%, 69%);
+  --light-grayish-blue: hsl(210, 46%, 95%);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--light-grayish-blue);
+    font-family: 'Manrope';
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background-color: white;
+    display: flex;
+    height: 422px;
+    border-radius: 15px;
+    box-shadow: 0 0.125rem 0.5rem rgba(0, 0, 0, 0.2);
+}
+
+.left .drawers{
+    width: 422px;
+    height: 422px;
+    border-radius: 15px 0 0 15px;
+}
+
+.right{
+    width: 680px;
+    padding: 40px 55px;
+}
+
+h1{
+    color: var(--very-dark-grayish-blue);
+}
+
+h2{
+    color: var(--very-dark-grayish-blue);
+    font-size: 32px;
+}
+
+.right p{
+    color: var(--desaturated-dark-blue);
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.paragraph{
+    margin-top: 18px;
+}
+
+.down_right{
+    display: flex;
+    margin-top: 45px;
+}
+
+.avatar{
+    width: 11%;
+    border-radius: 50%;
+}
+
+.text{
+    margin-top: 3px;
+    margin-left: 30px;
+}
+
+h3{
+    color: var(--very-dark-grayish-blue);
+    font-size: 20px;
+    font-weight: 800;
+}
+
+h4{
+    color: var(--grayish-blue);
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+.circle_icon_share{
+    width: 50px;
+    height: 50px;
+    background-color: var(--light-grayish-blue);
+    border-radius: 50%;
+    padding: 13px 0 0 18px;
+    margin: 10px 0 0 249px;
+    cursor: pointer;
+}
+
+.circle_icon_share:hover{
+    background-color: var(--very-dark-grayish-blue);
+}
+
+.icon_share{
+    scale: 1.50;
+}
+
+.share{
+    position: absolute;
+    background-color: var(--very-dark-grayish-blue);
+    display: flex;
+    width: 250px;
+    height: 50px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    top: 520px;
+    right: 365px;
+    box-shadow: 0 0.125rem 0.5rem rgba(0, 0, 0, 0.2);
+}
+
+.share img{
+    width: 20px;
+    height: 20px;
+    margin: 0 8px;
+}
+
+.share p{
+    font-size: 13px;
+    color: white;
+    font-weight: lighter;
+    letter-spacing: 6px;
+}
